@@ -1,0 +1,55 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--header-background);
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.logo:hover {
+    color: var(--logo-color);
+}
+
+.select {
+    background-color: var(--header-background);
+    color: var(--logo-color);
+}
+
+/* .light .logo  {
+    background-color: #FFFFFF;
+    color: #111517;
+    padding: 20px;
+}
+
+.light .logo:hover {
+    color: #111517;
+}
+
+.darks, .logo {
+    background-color: #2B3844;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.darks .logo {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+
+}
+
+.btns {
+    position: relative;
+
+}
+
+.logo:hover {
+    color: rgb(255, 255, 255);
+
+} */
+
+.select {
+    width: 150px;
+}
+

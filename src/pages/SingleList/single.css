@@ -1,0 +1,21 @@
+body {
+    background-color: var(--body-background);
+}
+
+.parag {
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+}
+
+.wrap {
+    margin-top: 7% !important;
+}
+
+.off {
+    color: var(--logo-color);
+}
+
+.parag {
+    color: var(--logo-color);
+
+}

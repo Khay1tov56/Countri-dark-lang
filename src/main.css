@@ -1,0 +1,19 @@
+body {
+    background-color: var(--body-background);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-background: #FFFFFF;
+    --logo-color:#111517;
+    --body-background: #F2F2F2;
+    --span-color: #a7a7a7;
+
+}
+
+.dark {
+    --header-background: #2B3844;
+    --logo-color:#FFFFFF;
+    --body-background: #202C36;
+}

@@ -1,0 +1,12 @@
+.label {
+    width: 220px;
+}
+
+.inp {
+    background-color: var(--body-background);
+}
+
+.selc {
+    background-color: var(--body-background);
+    color: var(--logo-color);
+}
