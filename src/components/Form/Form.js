@@ -19,11 +19,11 @@ function selectValue(e) {
             <div className="my-5">
                 <form className="d-flex justify-content-between" onSubmit={Input} autoComplete="off">
                 <label className="form-label w-25">
-                    <input type="search" className="form-control inp" name="searchinput" ref={text} placeholder={lang[til].form.placeholder} />
+                    <input type="search" className="form-control inp" name="searchinput" ref={text} placeholder={lang[til].forma.placeholder} />
                 </label>
                 <label className="form-label label">
-                <select onChange={selectValue} className="form-select">
-                 <option hidden>{lang[til].form.option} </option>
+                <select defaultValue={lang[til]} onChange={selectValue} className="form-select">
+                 <option hidden>{lang[til].forma.option} </option>
                  <option value="Africa">Africa</option>
                  <option value="America">America</option>
                  <option value="Asia">Asia</option>

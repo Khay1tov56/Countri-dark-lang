@@ -11,13 +11,13 @@ const Header = ({setTheme, setTil, til}) => {
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
      <h1>
-     <Link className="logo text-decoration-none" to="/">{lang[til].hdr.logo}</Link>
+     <Link className="logo text-decoration-none" to="/">{lang[til].headrs.logo}</Link>
       </h1> 
       <div className="select-wrap d-flex">
 
 <select className="form-select select" aria-label="Default select example" onChange={(e) => setTheme(e.target.value)}>
-  <option value="light" selected>{lang[til].hdr.light}</option>
-  <option value="dark">{lang[til].hdr.dark}</option>
+  <option value="light" selected>{lang[til].headrs.light}</option>
+  <option value="dark">{lang[til].headrs.dark}</option>
 </select>
 
      <select defaultValue={til} className="form-select select  me-5" aria-label="Default select example" onChange={(evt) => setTil(evt.target.value)}>

@@ -1,12 +1,12 @@
 export const lang = {
     en: {
-        hdr: {
+        headrs: {
             logo:"Where in the world?",
             light: "Light",
             dark: "Dark",
 
         },
-        form : {
+        forma : {
             placeholder : "Search for a country…",
             option : "Filter by Region"
         },
@@ -29,13 +29,13 @@ export const lang = {
 
     },
     uz : {
-        hdr: {
+        headrs: {
             logo: "Dunyoning qayerida?",
             light: "Kun",
             dark : "Tun"
 
         },
-        form : {
+        forma : {
             placeholder : "Mamlakat qidiring…",
             option : "Mintaqaga filtrlash"
         },
@@ -58,12 +58,12 @@ export const lang = {
 
     },
     ru : {
-        hdr : {
+        headrs : {
             logo:" Где в мире?",
              light: "Cвeт",
              dark: "Темнота",
         },
-        form : {
+        forma : {
             placeholder : "Поиск страны…",
             option : "Фильтровать по региону"
         },
